@@ -14,7 +14,8 @@ app.use((req, res, next) => {
     )
     next()
 })
+const PORT = process.env.PORT || 4000;
 app.use('/', route)
-app.listen(4000, () => {
+app.listen(PORT, () => {
     console.log('App listening on port 4000..');
 })
