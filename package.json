@@ -2,7 +2,7 @@
   "name": "group14_thedalbookbarn",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js"
   "scripts": {
     "start":"node backend/server",
     "server": "nodemon backend/server",
